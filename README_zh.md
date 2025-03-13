@@ -1,17 +1,19 @@
-[English](README.md) | 中文
 
-[![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/gregpr07/browser-use/stargazers) &ensp;
-[![Twitter Follow](https://img.shields.io/twitter/follow/openmanus?style=social)](https://twitter.com/openmanus) &ensp;
-[![Discord Follow](https://dcbadge.vercel.app/api/server/https://discord.gg/6dn7Sa3a?style=flat)](https://discord.gg/6dn7Sa3a) &ensp;
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[English](README.md) | 中文 | [한국어](README_ko.md) | [日本語](README_ja.md)
+
+
+
+[![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/mannaandpoem/OpenManus/stargazers)
+&ensp;
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
+[![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 
 # 👋 OpenManus
 
 Manus 非常棒，但 OpenManus 无需邀请码即可实现任何创意 🛫！
 
-我们的团队成员 [@mannaandpoem](https://github.com/mannaandpoem) [@XiangJinyu](https://github.com/XiangJinyu) [@MoshiQAQ](https://github.com/MoshiQAQ) [@didiforgithub](https://github.com/didiforgithub) https://github.com/stellaHSR
-和 [@Xinyu Zhang](https://x.com/xinyzng) 来自 [@MetaGPT](https://github.com/geekan/MetaGPT) 等组织，我们在 3
-小时内完成了原型开发并持续迭代中！
+我们的团队成员 [@Xinbin Liang](https://github.com/mannaandpoem) 和 [@Jinyu Xiang](https://github.com/XiangJinyu)（核心作者），以及 [@Zhaoyang Yu](https://github.com/MoshiQAQ)、[@Jiayi Zhang](https://github.com/didiforgithub) 和 [@Sirui Hong](https://github.com/stellaHSR)，来自 [@MetaGPT](https://github.com/geekan/MetaGPT)团队。我们在 3
+小时内完成了开发并持续迭代中！
 
 这是一个简洁的实现方案，欢迎任何建议、贡献和反馈！
 
@@ -129,17 +131,6 @@ python run_flow.py
 
 或通过 📧 邮件联系 @mannaandpoem：mannaandpoem@gmail.com
 
-## 发展路线
-
-在全面收集了社区成员的反馈后，我们决定采用 3-4 天为周期的迭代模式，逐步实现大家期待的功能。
-
-- [ ] 增强 Planning 能力，优化任务分解和执行逻辑
-- [ ] 引入标准化评测，基于 GAIA 和 TAU-Bench，持续评估并优化性能
-- [ ] 拓展模型适配，优化低成本应用场景
-- [ ] 实现容器化部署，简化安装和使用流程
-- [ ] 丰富示例库，增加更多实用案例，包含成功和失败示例的分析
-- [ ] 前后端开发，提供用户体验
-
 ## 交流群
 
 加入我们的飞书交流群，与其他开发者分享经验！
@@ -157,4 +148,19 @@ python run_flow.py
 特别感谢 [anthropic-computer-use](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo)
 和 [browser-use](https://github.com/browser-use/browser-use) 为本项目提供的基础支持！
 
+此外，我们感谢 [AAAJ](https://github.com/metauto-ai/agent-as-a-judge)，[MetaGPT](https://github.com/geekan/MetaGPT) 和 [OpenHands](https://github.com/All-Hands-AI/OpenHands).
+
 OpenManus 由 MetaGPT 社区的贡献者共同构建，感谢这个充满活力的智能体开发者社区！
+
+## 引用我们
+
+```bibtex
+@misc{openmanus2025,
+  author = {Xinbin Liang and Jinyu Xiang and Zhaoyang Yu and Jiayi Zhang and Sirui Hong},
+  title = {OpenManus: An open-source framework for building general AI agents},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/mannaandpoem/OpenManus}},
+}
+```
