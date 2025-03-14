@@ -3,6 +3,8 @@
 playwright install 
 pip install baidusearch duckduckgo_search
 ```
+The project I showed in class is at branch **main**.
+
 Feel free to contact me at *jiaruiz@brandeis.edu*
 
 **Below is the original README.md from the develop group**
