@@ -1,3 +1,12 @@
+# Attention: You might need to run these scripts in cmd/terminal manually to successfully run this project.
+```
+playwright install 
+pip install baidusearch duckduckgo_search
+```
+Feel free to contact me at *jiaruiz@brandeis.edu*
+
+**Below is the original README.md from the develop group**
+---
 English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](README_ja.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/mannaandpoem/OpenManus/stargazers)
