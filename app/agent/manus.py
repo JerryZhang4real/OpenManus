@@ -37,7 +37,7 @@ class Manus(ToolCallAgent):
     # Add general-purpose tools to the tool collection
     available_tools: ToolCollection = Field(
         default_factory=lambda: ToolCollection(
-            PythonExecute(), WebSearch(), BrowserUseTool(), FileSaver(), Terminate(), DownloadFile()
+            PythonExecute(), WebSearch(), BrowserUseTool(), FileSaver(), Terminate(), DownloadFile(), CalculateStatisticsFromFile()
         )
     )
 
