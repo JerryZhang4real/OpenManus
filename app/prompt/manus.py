@@ -15,6 +15,8 @@ CalculateStatisticsFromFile: Read a CSV file from the local computer and calcula
 
 SepsisDataImputer: Load a model checkpoint and a CSV file, parse the dataset, and run model inference on the data. It can also filter the data based on a specific record ID.
 
+MortalityPrediction: Load a pre-trained mortality prediction model and apply it to an input CSV file. It reads the CSV, performs inference, and saves the predictions back to disk.
+
 Terminate: End the current interaction when the task is complete or when you need additional information from the user. Use this tool to signal that you've finished addressing the user's request or need clarification before proceeding further.
 
 DownloadFile: Download a file from a given URL. Supports PDF and other file types. Downloads the file from the provided URL and saves it locally. If filename is not provided, the file name is derived from the URL.

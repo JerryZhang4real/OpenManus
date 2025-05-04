@@ -14,6 +14,7 @@ from app.config import config
 from app.tool.download_file import DownloadFile
 from app.tool.calculate_statistics_from_file import CalculateStatisticsFromFile
 from app.tool.sepsis_data_imputer import SepsisDataImputer
+from app.tool.mortality_prediction import MortalityPrediction
 
 class Manus(ToolCallAgent):
     """
@@ -38,7 +39,7 @@ class Manus(ToolCallAgent):
     # Add general-purpose tools to the tool collection
     available_tools: ToolCollection = Field(
         default_factory=lambda: ToolCollection(
-            PythonExecute(), WebSearch(), BrowserUseTool(), FileSaver(), Terminate(), DownloadFile(), CalculateStatisticsFromFile(), SepsisDataImputer()
+            PythonExecute(), WebSearch(), BrowserUseTool(), FileSaver(), Terminate(), DownloadFile(), CalculateStatisticsFromFile(), SepsisDataImputer(), MortalityPrediction()
         )
     )
 
